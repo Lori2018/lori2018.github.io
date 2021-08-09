@@ -11,6 +11,15 @@ Document
 Use a better box model (opinionated).
 */
 
+.watch-img {
+  align: right;
+}
+
+.h1-title {
+  text-align: center;
+  font-size: 30px;
+}
+
 .big-text {
   color: rgba(233, 239, 248, 0.877);
   font-size: 55px;

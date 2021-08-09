@@ -1,11 +1,12 @@
-import React, {useState} from 'react';
+// import React, {useState} from 'react';
+import React from 'react';
 import Router from 'next/router';
 import cookie from 'js-cookie';
 
 const Login = () => {
-  const [loginError, setLoginError] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [loginError, setLoginError] = React.useState('');
+  const [email, setEmail] = React.useState('');
+  const [password, setPassword] = React.useState('');
 
   function handleSubmit(e) {
     e.preventDefault();

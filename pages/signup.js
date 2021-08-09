@@ -1,12 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Router from 'next/router';
 import cookie from 'js-cookie';
 
 const Signup = () => {
-  const [signupError, setSignupError] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [passwordConfirmation, setPasswordConfirmation] = useState('');
+  const [signupError, setSignupError] = React.useState('');
+  const [email, setEmail] = React.useState('');
+  const [password, setPassword] = React.useState('');
+  const [passwordConfirmation, setPasswordConfirmation] = React.useState('');
 
   function handleSubmit(e) {
     e.preventDefault();

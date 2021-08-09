@@ -9485,26 +9485,26 @@ export default function Navbar()  {
               </ul>
             )}
           </div>
-            <Link href="/profile">
+            {/* <Link href="/profile">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white ">
                 Profile
               </a>
-            </Link>
-            <Link href="/watch">
+            </Link> */}
+            {/* <Link href="/watch">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white">
                 Watch
               </a>
-            </Link>
+            </Link> */}
             <Link href="/scan">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white">
                 Scan
               </a>
             </Link>
-            <Link href="/cart">
+            {/* <Link href="/cart">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-blue-600 hover:text-white">
                 Cart
               </a>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>
