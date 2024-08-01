@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Julius+Sans+One&display=swap');
+
+
+.name {
+    display: block;
+    float: left;
+    font-size: 20px;
+    padding: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #811B1B;
+}
+
+.item {
+    display: block;
+    float: right;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #811B1B;
+}
+
+.last-item {
+    margin-right: 20px;
+}
+
+
+.navbar {
+    /* display: ; */
+    background-color: pink;
+} 
